@@ -1,4 +1,4 @@
-#	$NetBSD:	$
+#	$NetBSD: Makefile,v 1.6 2018/05/29 16:53:56 kamil Exp $
 
 .include <bsd.own.mk>
 
@@ -6,7 +6,6 @@ SUBDIR+=	executor
 SUBDIR+=	hello
 #SUBDIR+=	luahello		# Nothing to build here, only text files
 SUBDIR+=	luareadhappy		# Needs an additional Lua script
-SUBDIR+=	mapper			# Needs an additional helper program
 SUBDIR+=	panic_string		# Crashes the system
 SUBDIR+=	ping			# Needs an additional helper program
 SUBDIR+=	properties
